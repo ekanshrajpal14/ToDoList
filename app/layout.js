@@ -1,7 +1,8 @@
+import Nav from '@/component/navbar/Nav'
 import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import 'remixicon/fonts/remixicon.css'
+import 'react-notifications/lib/notifications.css';
+import Contextapi from './contextapi';
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +12,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body suppressHydrationWarning >
+
+        <Contextapi >
+          <Nav />
+          {children}
+        </Contextapi>
+      </body>
     </html>
   )
 }

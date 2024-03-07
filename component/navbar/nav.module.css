@@ -1,0 +1,16 @@
+
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: beige;
+}
+.navigation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 4vw;
+    justify-content: space-between;
+}

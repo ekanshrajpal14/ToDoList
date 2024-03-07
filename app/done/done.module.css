@@ -1,0 +1,28 @@
+.done {
+    width: 100%;
+    min-height: 90vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allTask {
+    width: 75%;
+    height: auto;
+
+}
+
+.task {
+    width: 100%;
+    background-color: #fff;
+    min-height: 10vh;
+    margin-bottom: 1vw;
+    border-radius: 5px;
+    padding: 1.5vw 3vw;
+    word-wrap: break-word;
+}
+.task p{
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
